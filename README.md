@@ -6,6 +6,9 @@ http://api.ridesociallondon.co.uk/api/EventFeed/
 ## Standards
 The data is published to conform to [Openactive Realtime Paged Data Exchange 0.2.3](https://www.openactive.io/realtime-paged-data-exchange/0.2.3/).
 
+## Issues, Questions and Comments
+Please raise any issues, questions or comments as a [new issue in this repository](https://github.com/britishcycling-oa/opendata/issues).
+
 ## Data Fields
 
 | Data Field | Example Value | Description |
