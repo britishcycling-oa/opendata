@@ -4,7 +4,7 @@
 http://api.ridesociallondon.co.uk/api/EventFeed/
 
 ## Standards
-The data is published to conform to the [Openactive Realtime Paged Data Exchange 0.2.3](https://www.openactive.io/realtime-paged-data-exchange/0.2.3/)
+The data is published to conform to [Openactive Realtime Paged Data Exchange 0.2.3](https://www.openactive.io/realtime-paged-data-exchange/0.2.3/).
 
 ## Data Fields
 
