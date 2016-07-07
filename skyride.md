@@ -35,3 +35,10 @@ The data is published to conform to [Openactive Realtime Paged Data Exchange 0.2
 | "Publish" | false | Ride is published on the public website. Value "false" should be considered as a deleted record. |
 | "Link" | "http://www.goskyride.com/Search/Details?eventid=42831" | URL of session on Sky Ride site.
 | "LastUpdated" | 19523983 | Record last updated timestamp |
+
+
+## Changelog
+
+| Date | Changes |
+|---|---|
+| 4/07/2016 | Initial version published |
