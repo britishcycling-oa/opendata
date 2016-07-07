@@ -28,10 +28,10 @@ The data is published to conform to the [Openactive Realtime Paged Data Exchange
 | "RideDistanceMiles" | 5 | Ride Distance |
 | "StartLatitude" | 52.45082082040742 | | 
 | "StartLongitude" | -1.8999221725943267 | | 
-| "Permitted" | 100000 | ? |
-| "BookedPreRide" | 78 | ? |
-| "Booked" | 78 | 
+| "Permitted" | 100000 | Number or riders permitted to attend the session (100000 = unlimited) |
+| "BookedPreRide" | 78 | Number of riders booked before the ride started |
+| "Booked" | 78 | Number of sessions booked total |
 | "Free" | 0 |  Free places remaining |
-| "Publish" | false | ? |
+| "Publish" | false | Ride is published on the public website. Value "false" should be considered as a deleted record. |
 | "Link" | "http://www.goskyride.com/Search/Details?eventid=42831" | URL of session on Sky Ride site.
 | "LastUpdated" | 19523983 | Record last updated timestamp |
