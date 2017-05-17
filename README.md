@@ -1,7 +1,7 @@
-# British Cycling Sky Ride Open Data
+# British Cycling Let's Ride Open Data
 
 ## Open Data Endpoint
-http://api.ridesociallondon.co.uk/api/EventFeed/ - a feed of the data from goskyride.com
+http://api.letsride.co.uk/public/v1/rides - a feed of the data from letsride.co.uk
 
 ## Standards
 The data is published to conform to [Openactive Realtime Paged Data Exchange 0.2.3](https://www.openactive.io/realtime-paged-data-exchange/0.2.3/).
