@@ -1,0 +1,51 @@
+{
+  "@context": {
+    "label": "http://www.w3.org/2000/01/rdf-schema#label",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "britishcycling": "http://data.goskyride.com/opendata#",
+    "schema": "http://schema.org/",
+    "id": "@id"
+  },
+  "britishcycling:stoppingPoints": {
+    "id": "britishcycling:stoppingPoints",
+    "label": "Route Stopping Points",
+    "description": "Description of stopping points on the route",
+    "example": "Riverside Museum 3 miles, Scotstoun Leisure Centre 5.9 miles"
+  },
+  "britishcycling:otherInformation": {
+    "id": "britishcycling:otherInformation",
+    "label": "Other Information",
+    "description": "Other information about the route",
+    "example": "There are some on-going works along sections of route, but these can be easily managed."
+  },
+  "britishcycling:gpxFile": {
+    "id": "britishcycling:gpxFile",
+    "label": "Route GPX File",
+    "@type": "@id"
+  },
+  "britishcycling:terrain": {
+    "id": "britishcycling:terrain",
+    "label": "Route Terrain",
+    "example": "Tarmac Road"
+  },
+  "britishcycling:topography": {
+    "id": "britishcycling:topography",
+    "label": "Route Terrain",
+    "example": "Some Hills"
+  },
+  "britishcycling:publicTransport": {
+    "id": "britishcycling:publicTransport",
+    "label": "Accessible via Public Transport",
+    "@type": "xsd:boolean"
+  },
+  "britishcycling:publicTransportDetails": {
+    "id": "britishcycling:publicTransportDetails",
+    "label": "Nearby Public Transport Details",
+    "example": "Pontefract Train Station"
+  },
+  "britishcycling:routePhotos": {
+    "id": "britishcycling:routePhotos",
+    "label": "Photos of the route",
+    "@type": "schema:ImageObject"
+  }
+}
