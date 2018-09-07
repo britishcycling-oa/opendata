@@ -10,42 +10,48 @@
     "id": "britishcycling:stoppingPoints",
     "label": "Route Stopping Points",
     "description": "Description of stopping points on the route",
-    "example": "Riverside Museum 3 miles, Scotstoun Leisure Centre 5.9 miles"
+    "@type": "xsd:string"
   },
   "britishcycling:otherInformation": {
     "id": "britishcycling:otherInformation",
     "label": "Other Information",
     "description": "Other information about the route",
-    "example": "There are some on-going works along sections of route, but these can be easily managed."
+    "@type": "xsd:string"
   },
   "britishcycling:gpxFile": {
     "id": "britishcycling:gpxFile",
     "label": "Route GPX File",
+    "description": "GPX is a type of file that’s really helpful to anyone who loves the outdoors, and is the most popular way of saving and exchanging routes which can be plotted on a map",
     "@type": "@id"
   },
   "britishcycling:terrain": {
     "id": "britishcycling:terrain",
     "label": "Route Terrain",
-    "example": "Tarmac Road"
+    "description": "For example, 'Tarmac Road'",
+    "@type": "xsd:string"
   },
   "britishcycling:topography": {
     "id": "britishcycling:topography",
     "label": "Route Topography",
-    "example": "Some Hills"
+    "description": "For example, 'Some Hills'",
+    "@type": "xsd:string"
   },
   "britishcycling:publicTransport": {
     "id": "britishcycling:publicTransport",
     "label": "Accessible via Public Transport",
+    "description": "Is it feasible to get to the meeting point of this ride via public transport only",
     "@type": "xsd:boolean"
   },
   "britishcycling:publicTransportDetails": {
     "id": "britishcycling:publicTransportDetails",
     "label": "Nearby Public Transport Details",
-    "example": "Pontefract Train Station"
+    "description": "Information about public transport to use e.g. Pontefract Train Station",
+    "@type": "xsd:string"
   },
   "britishcycling:routePhotos": {
     "id": "britishcycling:routePhotos",
     "label": "Photos of the route",
+    "description": "Photos taken of the same route at various dates",
     "@type": "schema:ImageObject"
   }
 }
