@@ -30,7 +30,7 @@
   },
   "britishcycling:topography": {
     "id": "britishcycling:topography",
-    "label": "Route Terrain",
+    "label": "Route Topography",
     "example": "Some Hills"
   },
   "britishcycling:publicTransport": {
