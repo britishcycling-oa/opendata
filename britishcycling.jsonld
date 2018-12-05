@@ -1,7 +1,7 @@
 {
   "@context": [
     "https://openactive.io/extension",
-    { "britishcycling": "http://data.goskyride.com/opendata#" }
+    { "britishcycling": "http://data.letsride.co.uk/opendata#" }
   ],
   "@graph": [
     {
