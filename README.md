@@ -15,7 +15,6 @@ In addition to the properties in the [Opportunity Data Model](https://www.openac
 | (Class) Property    |  Expected Type  | Description                                                         |
 |---------------------|-----------------|---------------------------------------------------------------------|
 | <a name="gpxFile"></a> ([`schema:Event`](https://schema.org/Event)) <br/>  `britishcycling:gpxFile` | [`schema:URL`](https://schema.org/URL) | GPX is a type of file that’s really helpful to anyone who loves the outdoors, and is the most popular way of saving and exchanging routes which can be plotted on a map. |
-| <a name="otherInformation"></a> ([`schema:Event`](https://schema.org/Event)) <br/>  `britishcycling:otherInformation` | [`schema:Text`](https://schema.org/Text) | Other information about the route |
 | <a name="publicTransport"></a> ([`schema:Event`](https://schema.org/Event)) <br/>  `britishcycling:publicTransport` | [`schema:Boolean`](https://schema.org/Boolean) | Is it feasible to get to the meeting point of this ride via public transport only |
 | <a name="publicTransportDetails"></a> ([`schema:Event`](https://schema.org/Event)) <br/>  `britishcycling:publicTransportDetails` | [`schema:Text`](https://schema.org/Text) | Information about public transport to use e.g. Pontefract Train Station. |
 | <a name="stoppingPoints"></a> ([`schema:Event`](https://schema.org/Event)) <br/>  `britishcycling:stoppingPoints` | [`schema:Text`](https://schema.org/Text) | Description of stopping points on the route |
