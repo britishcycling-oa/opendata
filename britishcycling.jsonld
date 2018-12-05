@@ -1,51 +1,64 @@
 {
-  "@context": {
-    "label": "http://www.w3.org/2000/01/rdf-schema#label",
-    "xsd": "http://www.w3.org/2001/XMLSchema#",
-    "britishcycling": "http://data.goskyride.com/opendata#",
-    "schema": "http://schema.org/",
-    "id": "@id"
-  },
-  "britishcycling:stoppingPoints": {
-    "id": "britishcycling:stoppingPoints",
-    "label": "Route Stopping Points",
-    "description": "Description of stopping points on the route",
-    "@type": "xsd:string"
-  },
-  "britishcycling:otherInformation": {
-    "id": "britishcycling:otherInformation",
-    "label": "Other Information",
-    "description": "Other information about the route",
-    "@type": "xsd:string"
-  },
-  "britishcycling:gpxFile": {
-    "id": "britishcycling:gpxFile",
-    "label": "Route GPX File",
-    "description": "GPX is a type of file that’s really helpful to anyone who loves the outdoors, and is the most popular way of saving and exchanging routes which can be plotted on a map",
-    "@type": "@id"
-  },
-  "britishcycling:terrain": {
-    "id": "britishcycling:terrain",
-    "label": "Route Terrain",
-    "description": "For example, 'Tarmac Road'",
-    "@type": "xsd:string"
-  },
-  "britishcycling:topography": {
-    "id": "britishcycling:topography",
-    "label": "Route Topography",
-    "description": "For example, 'Some Hills'",
-    "@type": "xsd:string"
-  },
-  "britishcycling:publicTransport": {
-    "id": "britishcycling:publicTransport",
-    "label": "Accessible via Public Transport",
-    "description": "Is it feasible to get to the meeting point of this ride via public transport only",
-    "@type": "xsd:boolean"
-  },
-  "britishcycling:publicTransportDetails": {
-    "id": "britishcycling:publicTransportDetails",
-    "label": "Nearby Public Transport Details",
-    "description": "Information about public transport to use e.g. Pontefract Train Station",
-    "@type": "xsd:string"
-  }
+  "@context": [
+    "https://openactive.io/extension",
+    { "britishcycling": "http://data.goskyride.com/opendata#" }
+  ],
+  "@graph": [
+    {
+      "id": "britishcycling:stoppingPoints",
+      "type": "Property",
+      "label": "stoppingPoints",
+      "comment": "Description of stopping points on the route",
+      "domainIncludes": [ "schema:Event" ],
+      "rangeIncludes": [ "schema:Text" ]
+    },
+    {
+      "id": "britishcycling:otherInformation",
+      "type": "Property",
+      "label": "otherInformation",
+      "comment": "Other information about the route",
+      "domainIncludes": [ "schema:Event" ],
+      "rangeIncludes": [ "schema:Text" ]
+    },
+    {
+      "id": "britishcycling:gpxFile",
+      "type": "Property",
+      "label": "gpxFile",
+      "comment": "GPX is a type of file that’s really helpful to anyone who loves the outdoors, and is the most popular way of saving and exchanging routes which can be plotted on a map.",
+      "domainIncludes": [ "schema:Event" ],
+      "rangeIncludes": [ "schema:URL" ]
+    },
+    {
+      "id": "britishcycling:terrain",
+      "type": "Property",
+      "label": "terrain",
+      "comment": "Route terrain, for example, 'Tarmac Road'.",
+      "domainIncludes": [ "schema:Event" ],
+      "rangeIncludes": [ "schema:Text" ]
+    },
+    {
+      "id": "britishcycling:topography",
+      "type": "Property",
+      "label": "topography",
+      "comment": "Route topography, for example, 'Some Hills'.",
+      "domainIncludes": [ "schema:Event" ],
+      "rangeIncludes": [ "schema:Text" ]
+    },
+    {
+      "id": "britishcycling:publicTransport",
+      "type": "Property",
+      "label": "publicTransport",
+      "comment": "Is it feasible to get to the meeting point of this ride via public transport only",
+      "domainIncludes": [ "schema:Event" ],
+      "rangeIncludes": [ "schema:Boolean" ]
+    },
+    {
+      "id": "britishcycling:publicTransportDetails",
+      "type": "Property",
+      "label": "publicTransportDetails",
+      "comment": "Information about public transport to use e.g. Pontefract Train Station.",
+      "domainIncludes": [ "schema:Event" ],
+      "rangeIncludes": [ "schema:Text" ]
+    }
+  ]
 }
