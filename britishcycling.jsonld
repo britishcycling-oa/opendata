@@ -47,11 +47,5 @@
     "label": "Nearby Public Transport Details",
     "description": "Information about public transport to use e.g. Pontefract Train Station",
     "@type": "xsd:string"
-  },
-  "britishcycling:routePhotos": {
-    "id": "britishcycling:routePhotos",
-    "label": "Photos of the route",
-    "description": "Photos taken of the same route at various dates",
-    "@type": "schema:ImageObject"
   }
 }
