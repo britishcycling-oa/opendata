@@ -13,14 +13,6 @@
       "rangeIncludes": [ "schema:Text" ]
     },
     {
-      "id": "britishcycling:otherInformation",
-      "type": "Property",
-      "label": "otherInformation",
-      "comment": "Other information about the route",
-      "domainIncludes": [ "schema:Event" ],
-      "rangeIncludes": [ "schema:Text" ]
-    },
-    {
       "id": "britishcycling:gpxFile",
       "type": "Property",
       "label": "gpxFile",
