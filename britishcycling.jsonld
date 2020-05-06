@@ -1,6 +1,6 @@
 {
   "@context": [
-    "https://openactive.io/extension",
+    "https://openactive.io/ns-extension",
     { "britishcycling": "http://data.letsride.co.uk/opendata#" }
   ],
   "@graph": [
