@@ -1,56 +1,82 @@
 {
   "@context": [
     "https://openactive.io/ns-extension",
-    { "britishcycling": "http://data.letsride.co.uk/opendata#" }
+    {
+      "britishcycling": "http://data.letsride.co.uk/opendata#"
+    }
   ],
   "@graph": [
     {
-      "id": "britishcycling:stoppingPoints",
-      "type": "Property",
+      "@id": "britishcycling:stoppingPoints",
+      "@type": "Property",
       "label": "stoppingPoints",
       "comment": "Description of stopping points on the route",
-      "domainIncludes": [ "schema:Event" ],
-      "rangeIncludes": [ "schema:Text" ]
+      "domainIncludes": [
+        "schema:Event"
+      ],
+      "rangeIncludes": [
+        "schema:Text"
+      ]
     },
     {
-      "id": "britishcycling:gpxFile",
-      "type": "Property",
+      "@id": "britishcycling:gpxFile",
+      "@type": "Property",
       "label": "gpxFile",
       "comment": "GPX is a type of file that’s really helpful to anyone who loves the outdoors, and is the most popular way of saving and exchanging routes which can be plotted on a map.",
-      "domainIncludes": [ "schema:Event" ],
-      "rangeIncludes": [ "schema:URL" ]
+      "domainIncludes": [
+        "schema:Event"
+      ],
+      "rangeIncludes": [
+        "schema:URL"
+      ]
     },
     {
-      "id": "britishcycling:terrain",
-      "type": "Property",
+      "@id": "britishcycling:terrain",
+      "@type": "Property",
       "label": "terrain",
       "comment": "Route terrain, for example, 'Tarmac Road'.",
-      "domainIncludes": [ "schema:Event" ],
-      "rangeIncludes": [ "schema:Text" ]
+      "domainIncludes": [
+        "schema:Event"
+      ],
+      "rangeIncludes": [
+        "schema:Text"
+      ]
     },
     {
-      "id": "britishcycling:topography",
-      "type": "Property",
+      "@id": "britishcycling:topography",
+      "@type": "Property",
       "label": "topography",
       "comment": "Route topography, for example, 'Some Hills'.",
-      "domainIncludes": [ "schema:Event" ],
-      "rangeIncludes": [ "schema:Text" ]
+      "domainIncludes": [
+        "schema:Event"
+      ],
+      "rangeIncludes": [
+        "schema:Text"
+      ]
     },
     {
-      "id": "britishcycling:publicTransport",
-      "type": "Property",
+      "@id": "britishcycling:publicTransport",
+      "@type": "Property",
       "label": "publicTransport",
       "comment": "Is it feasible to get to the meeting point of this ride via public transport only",
-      "domainIncludes": [ "schema:Event" ],
-      "rangeIncludes": [ "schema:Boolean" ]
+      "domainIncludes": [
+        "schema:Event"
+      ],
+      "rangeIncludes": [
+        "schema:Boolean"
+      ]
     },
     {
-      "id": "britishcycling:publicTransportDetails",
-      "type": "Property",
+      "@id": "britishcycling:publicTransportDetails",
+      "@type": "Property",
       "label": "publicTransportDetails",
       "comment": "Information about public transport to use e.g. Pontefract Train Station.",
-      "domainIncludes": [ "schema:Event" ],
-      "rangeIncludes": [ "schema:Text" ]
+      "domainIncludes": [
+        "schema:Event"
+      ],
+      "rangeIncludes": [
+        "schema:Text"
+      ]
     }
   ]
 }
